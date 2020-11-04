@@ -5,6 +5,7 @@ import { productData, productData2 } from "./components/Products/Data";
 
 import { GloblaStyle } from "./globalStyles";
 import Feature from "./components/Feature/Index";
+import Footer from './components/Footer/Index'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       heading='Treats For You'
       data={productData2}
        />
+       <Footer/>
 
     </Router>
     
