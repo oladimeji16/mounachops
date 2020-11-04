@@ -1,12 +1,18 @@
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
+import { GloblaStyle } from "./globalStyles";
 
 function App() {
   return (
-    <div className="App">
-    <h1>Hello world</h1>
+    <Router>
+      <GloblaStyle/>
+      <NavBar/>
+    </Router>
+    
+       
       
-    </div>
   );
 }
 
 export default App;
+
